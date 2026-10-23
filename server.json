@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.hyre/mcp",
+  "title": "Hyre",
+  "description": "Recruiting workspace: your ATS and CRM, candidate emails, LinkedIn, calls, meetings and matching.",
+  "version": "2026.10.1",
+  "websiteUrl": "https://hyre.io",
+  "icons": [
+    {
+      "src": "https://mcp.hyre.io/logo-hyre-icon.png",
+      "mimeType": "image/png",
+      "sizes": ["2000x2000"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hyre.io/mcp"
+    }
+  ]
+}
